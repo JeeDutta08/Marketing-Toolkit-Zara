@@ -20,7 +20,7 @@ PALETTE = {
 
 # ======================
 # 2. DATA PREPARATION 
-#Please install the dataset and load it locally from your computer, you can adjust the path accordingly
+#Please download the dataset(cleaned_zara_dataset) and load it locally from your computer, you can adjust the path accordingly
 # ======================
 df = pd.read_excel("cleaned_zara_dataset.xlsx")
 df = df[['Product Category', 'price', 'Sales Volume', 'Promotion', 'section']].dropna()
