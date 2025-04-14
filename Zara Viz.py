@@ -19,7 +19,8 @@ PALETTE = {
 }
 
 # ======================
-# 2. DATA PREPARATION
+# 2. DATA PREPARATION 
+#Please install the dataset and load it locally from your computer, you can adjust the path accordingly
 # ======================
 df = pd.read_excel("cleaned_zara_dataset.xlsx")
 df = df[['Product Category', 'price', 'Sales Volume', 'Promotion', 'section']].dropna()
@@ -131,7 +132,7 @@ plt.savefig('conjoint_analysis.png', dpi=300, facecolor=BG_COLOR)
 plt.show()
 
 # ======================
-# 6. MARKET RESPONSE MODEL (FIXED)
+# 6. MARKET RESPONSE MODEL 
 # ======================
 plt.figure(figsize=(14, 7), facecolor=BG_COLOR)
 lm = sns.lmplot(
