@@ -31,7 +31,7 @@ PALETTE = {
 }
 
 # =================================================================
-# 2. DATA PREPARATION & CLEANING
+# 2. DATA PREPARATION & CLEANING (Data file is present here in GitHub name- cleaned_zara_dataset.xlsx)
 # Load and prepare the dataset for analysis. Key steps:
 # - Filter relevant columns
 # - Handle missing values
